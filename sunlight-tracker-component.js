@@ -1,4 +1,4 @@
-class SunTimesComponent extends HTMLElement {
+class SunlightTrackerComponent extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -160,7 +160,6 @@ class SunTimesComponent extends HTMLElement {
                     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
                     font-family: system-ui, -apple-system, sans-serif;
                     max-width: 400px;
-                    margin: 0 auto;
                 }
 
                 .sun-component__header {
@@ -279,4 +278,4 @@ class SunTimesComponent extends HTMLElement {
     }
 }
 
-customElements.define("sun-times-component", SunTimesComponent);
+customElements.define("sunlight-tracker-component", SunlightTrackerComponent);
