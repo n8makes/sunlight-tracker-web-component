@@ -1,3 +1,8 @@
+/*
+    Created by @n8makes
+    https://n8makes.com
+*/
+
 class SunlightTrackerComponent extends HTMLElement {
     constructor() {
         super();
